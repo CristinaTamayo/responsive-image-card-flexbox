@@ -1,0 +1,156 @@
+<style>
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.7rem;
+}
+
+.card-container {
+    background-color: hsl(0, 0%, 100%);
+    margin: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card-container .product-image {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: hsl(158, 42%, 18%);
+    height: 300px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-container .description {
+    padding: 24px;
+}
+
+h1, .price {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2.2rem;
+}
+
+p, span {
+    color: hsl(228, 12%, 48%);
+}
+
+.description .category {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.description .price-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.description .price {
+    font-size: 34px;
+    color: hsl(158, 36%, 37%);
+}
+
+.description .old-price {
+    text-decoration:line-through;
+}
+
+button.btn {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 100%;
+    margin-top: 24px;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button.btn:active, button.btn:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .card-container {
+        flex-direction: row;
+        width: 680px;
+    }
+
+    .card-container .product-image {
+        flex-grow: 1;
+        background-image: url(../images/image-product-desktop.jpg);
+        border-radius: 10px 0px 0px 10px;
+        min-width: 50%;
+        height: auto;
+    }
+
+    .card-container .description {
+        flex-grow: 1;
+    }
+}
+
+</style>
