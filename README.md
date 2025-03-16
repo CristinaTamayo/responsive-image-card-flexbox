@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://cristinatamayo.github.io/responsive-image-card-flexbox/)
+- Solution URL: [My repository link](https://github.com/CristinaTamayo/responsive-image-card-flexbox)
+- Live Site URL: [My final solution](https://cristinatamayo.github.io/responsive-image-card-flexbox/)
 
 ## My process
 
